@@ -19,6 +19,7 @@ export default function Home({ allPostsData }) {
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
+        <link rel="shortcut icon" href="/static/favicon.ico" />
       </Head>
       <section className={utilStyles.headingMd}>
         <p>[Your Self Introduction]</p>
